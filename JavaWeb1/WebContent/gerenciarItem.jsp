@@ -3,17 +3,38 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Gerenciar</title>
 </head>
 <body>
 <head>
 <meta charset="UTF-8">
-<title>Gerenciar Painel</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
 </head>
 <body>
+
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="img/Boutique_de_Carne.jpg" alt="logo" width="40px" />
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="gerenciarItem.jsp">Gerenciar Estoque</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="estoque.jsp">Estoque</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Pagina Incial</a>
+    </li>
+  </ul>
+</nav>
+	
 
 	<script type="text/javascript">
 		function dadosForm() {
@@ -148,6 +169,11 @@
 	<img height="200" width="200"src="https://hanatemplate.com/images/pig-head-vector-2.png">
 	<img height="200" width="200" src="https://cdn.pixabay.com/photo/2012/04/12/22/14/rooster-30871_960_720.png">
 		</center>
+		
+		
+		<div class="jumbotron text-center bg-dark"  style="margin-bottom:0 ; margin-top:50px ; ">
+  			
+		</div>
 </body>
 	
 

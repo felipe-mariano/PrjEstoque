@@ -5,11 +5,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Estoque</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="img/Boutique_de_Carne.jpg" alt="logo" width="40px" />
+  </a>  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="gerenciarItem.jsp">Gerenciar Estoque</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="estoque.jsp">Estoque</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Pagina Incial</a>
+    </li>
+  </ul>
+</nav>
 
 
 <h1 style="text-align:center;color:black"><b>Boutique de Carnes</b></h1>
@@ -65,5 +84,9 @@
 	
 		
 		</center>
+		
+		<div class="jumbotron text-center bg-dark"  style="margin-bottom:0 ; margin-top:50px ; ">
+  			
+		</div>
 </body>
 </html>
