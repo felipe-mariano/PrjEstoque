@@ -8,6 +8,10 @@
 <body>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" 
+href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+crossorigin="anonymous">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
@@ -15,11 +19,13 @@
 <body>
 
 	
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
-    <img src="img/Boutique_de_Carne.jpg" alt="logo" width="40px" />
-  </a>
+  <a class="navbar-brand" href="index.html">
+  
+    <!--  <img src="img/Boutique_de_Carne.jpg" alt="logo" width="40px" />-->
+    <i class="fas fa-home"></i>
+  </a>  
   
   <!-- Links -->
   <ul class="navbar-nav">
@@ -28,9 +34,6 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="estoque.jsp">Estoque</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">Pagina Incial</a>
     </li>
   </ul>
 </nav>
