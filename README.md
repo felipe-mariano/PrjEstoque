@@ -1,4 +1,4 @@
-#Controle de Estoque
+Controle de Estoque
 
 É através dele que será capaz de prever o quanto que será necessário comprar no próximo pedido ao fornecedor, além de fornecer informações úteis sobre as vendas. O controle de estoque é utilizado tanto para negócios físicos como digitais, e envolve atividades como:
 
